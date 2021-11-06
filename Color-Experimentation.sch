@@ -1033,6 +1033,7 @@ LETTER landscape</description>
 <text x="327.66" y="228.6" size="1.778" layer="97">Slider Potentiometers</text>
 <text x="375.92" y="121.92" size="1.778" layer="97">Microcontroller</text>
 <text x="317.5" y="68.58" size="1.778" layer="97">Close J2 to enable MIXED LED</text>
+<text x="431.8" y="78.74" size="3.81" layer="94">Jonathan Moyes</text>
 </plain>
 <instances>
 <instance part="U2" gate="A" x="386.08" y="111.76" smashed="yes">
