@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1457,7 +1457,7 @@ SMD LED with built-in controller IC.
 <text x="474.98" y="170.18" size="1.778" layer="97">LED Decoupling Caps</text>
 <text x="398.78" y="165.1" size="1.778" layer="97">USB Connector for Power</text>
 <text x="424.18" y="215.9" size="1.778" layer="97">Addressable LEDs</text>
-<text x="327.66" y="223.52" size="1.778" layer="97">Slider Potentiometers</text>
+<text x="327.66" y="228.6" size="1.778" layer="97">Slider Potentiometers</text>
 <text x="375.92" y="121.92" size="1.778" layer="97">Microcontroller</text>
 <text x="317.5" y="88.9" size="1.778" layer="97">Close J2 to enable MIXED LED</text>
 </plain>
@@ -1558,20 +1558,20 @@ SMD LED with built-in controller IC.
 <instance part="SUPPLY4" gate="G$1" x="502.92" y="170.18" smashed="yes">
 <attribute name="VALUE" x="502.92" y="172.974" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="RED_POT" gate="G$1" x="320.04" y="203.2" smashed="yes">
-<attribute name="NAME" x="332.74" y="205.74" size="1.778" layer="95" font="vector" rot="SR0"/>
+<instance part="RED_POT" gate="G$1" x="320.04" y="208.28" smashed="yes">
+<attribute name="NAME" x="332.74" y="210.82" size="1.778" layer="95" font="vector" rot="SR0"/>
 </instance>
-<instance part="GREEN_POT" gate="G$1" x="320.04" y="185.42" smashed="yes">
-<attribute name="NAME" x="332.74" y="187.96" size="1.778" layer="95" font="vector" rot="SR0"/>
+<instance part="GREEN_POT" gate="G$1" x="320.04" y="190.5" smashed="yes">
+<attribute name="NAME" x="332.74" y="193.04" size="1.778" layer="95" font="vector" rot="SR0"/>
 </instance>
-<instance part="BLUE_POT" gate="G$1" x="320.04" y="167.64" smashed="yes">
-<attribute name="NAME" x="332.74" y="170.18" size="1.778" layer="95" font="vector" rot="SR0"/>
+<instance part="BLUE_POT" gate="G$1" x="320.04" y="172.72" smashed="yes">
+<attribute name="NAME" x="332.74" y="175.26" size="1.778" layer="95" font="vector" rot="SR0"/>
 </instance>
-<instance part="GND4" gate="1" x="363.22" y="157.48" smashed="yes">
-<attribute name="VALUE" x="360.68" y="154.94" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="363.22" y="162.56" smashed="yes">
+<attribute name="VALUE" x="360.68" y="160.02" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY5" gate="G$1" x="312.42" y="215.9" smashed="yes">
-<attribute name="VALUE" x="312.42" y="218.694" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY5" gate="G$1" x="312.42" y="220.98" smashed="yes">
+<attribute name="VALUE" x="312.42" y="223.774" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND5" gate="1" x="335.28" y="121.92" smashed="yes">
 <attribute name="VALUE" x="332.74" y="119.38" size="1.778" layer="96"/>
@@ -1650,16 +1650,16 @@ SMD LED with built-in controller IC.
 </segment>
 <segment>
 <pinref part="RED_POT" gate="G$1" pin="3"/>
-<wire x1="340.36" y1="203.2" x2="363.22" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="363.22" y1="203.2" x2="363.22" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="208.28" x2="363.22" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="208.28" x2="363.22" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="BLUE_POT" gate="G$1" pin="3"/>
-<wire x1="363.22" y1="185.42" x2="363.22" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="363.22" y1="167.64" x2="363.22" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="167.64" x2="363.22" y2="167.64" width="0.1524" layer="91"/>
-<junction x="363.22" y="167.64"/>
+<wire x1="363.22" y1="190.5" x2="363.22" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="172.72" x2="363.22" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="172.72" x2="363.22" y2="172.72" width="0.1524" layer="91"/>
+<junction x="363.22" y="172.72"/>
 <pinref part="GREEN_POT" gate="G$1" pin="3"/>
-<wire x1="340.36" y1="185.42" x2="363.22" y2="185.42" width="0.1524" layer="91"/>
-<junction x="363.22" y="185.42"/>
+<wire x1="340.36" y1="190.5" x2="363.22" y2="190.5" width="0.1524" layer="91"/>
+<junction x="363.22" y="190.5"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -1746,16 +1746,16 @@ SMD LED with built-in controller IC.
 </segment>
 <segment>
 <pinref part="RED_POT" gate="G$1" pin="1"/>
-<wire x1="320.04" y1="203.2" x2="312.42" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="208.28" x2="312.42" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="BLUE_POT" gate="G$1" pin="1"/>
-<wire x1="312.42" y1="203.2" x2="312.42" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="185.42" x2="312.42" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="167.64" x2="320.04" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="208.28" x2="312.42" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="190.5" x2="312.42" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="172.72" x2="320.04" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="GREEN_POT" gate="G$1" pin="1"/>
-<wire x1="320.04" y1="185.42" x2="312.42" y2="185.42" width="0.1524" layer="91"/>
-<junction x="312.42" y="185.42"/>
-<junction x="312.42" y="203.2"/>
-<wire x1="312.42" y1="203.2" x2="312.42" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="190.5" x2="312.42" y2="190.5" width="0.1524" layer="91"/>
+<junction x="312.42" y="190.5"/>
+<junction x="312.42" y="208.28"/>
+<wire x1="312.42" y1="208.28" x2="312.42" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="V_USB"/>
 </segment>
 </net>
@@ -1775,9 +1775,9 @@ SMD LED with built-in controller IC.
 <net name="POT_RED_IN_A" class="0">
 <segment>
 <pinref part="RED_POT" gate="G$1" pin="2"/>
-<wire x1="330.2" y1="210.82" x2="330.2" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="213.36" x2="358.14" y2="213.36" width="0.1524" layer="91"/>
-<label x="332.74" y="213.36" size="1.778" layer="95"/>
+<wire x1="330.2" y1="215.9" x2="330.2" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="218.44" x2="358.14" y2="218.44" width="0.1524" layer="91"/>
+<label x="332.74" y="218.44" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PB4(PCINT4/ADC2)"/>
@@ -1793,17 +1793,17 @@ SMD LED with built-in controller IC.
 </segment>
 <segment>
 <pinref part="GREEN_POT" gate="G$1" pin="2"/>
-<wire x1="330.2" y1="193.04" x2="330.2" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="195.58" x2="358.14" y2="195.58" width="0.1524" layer="91"/>
-<label x="332.74" y="195.58" size="1.778" layer="95"/>
+<wire x1="330.2" y1="198.12" x2="330.2" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="200.66" x2="358.14" y2="200.66" width="0.1524" layer="91"/>
+<label x="332.74" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="POT_BLUE_IN_A" class="0">
 <segment>
 <pinref part="BLUE_POT" gate="G$1" pin="2"/>
-<wire x1="330.2" y1="175.26" x2="330.2" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="177.8" x2="358.14" y2="177.8" width="0.1524" layer="91"/>
-<label x="332.74" y="177.8" size="1.778" layer="95"/>
+<wire x1="330.2" y1="180.34" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="182.88" x2="358.14" y2="182.88" width="0.1524" layer="91"/>
+<label x="332.74" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PB2(SCK/PCINT2)"/>
