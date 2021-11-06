@@ -424,7 +424,33 @@ by exp-lbrs.ulp</description>
 <text x="-2.91" y="-2.815" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-2.91" y="2.815" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="R0603" urn="urn:adsk.eagle:footprint:23298111/2" library_version="52" library_locally_modified="yes">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="21"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="21"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<smd name="1" x="-0.85" y="0" dx="0.9" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="0.9" dy="1" layer="1"/>
+<text x="0" y="0.789" size="1.016" layer="25" font="vector" ratio="18" align="bottom-center">&gt;NAME</text>
+<text x="-0.989" y="-1.132" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
 </packages>
+<packages3d>
+<package3d name="R0603" urn="urn:adsk.eagle:package:23298173/3" type="model" library_version="52" library_locally_modified="yes">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<packageinstances>
+<packageinstance name="R0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="LED-RGB-ADDRESSABLE-1WIRE">
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
@@ -635,6 +661,21 @@ by exp-lbrs.ulp</description>
 <pin name="VCC" x="-30.48" y="5.08" length="middle" direction="pas"/>
 <text x="-25.4" y="7.62" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-25.4" y="-10.16" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="R-US">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -885,6 +926,30 @@ LETTER landscape</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="RES_10K_1%" prefix="R">
+<description>10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="R0603" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23298173/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MFG" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603FR-0710KL" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -953,18 +1018,21 @@ LETTER landscape</description>
 <part name="GND" library="Color-Experimentation" deviceset="TEST-POINT" device="40MIL">
 <variant name="DEFAULT" populate="no"/>
 </part>
+<part name="R1" library="Color-Experimentation" deviceset="RES_10K_1%" device="R0603" package3d_urn="urn:adsk.eagle:package:23298173/3" value="10k"/>
+<part name="SUPPLY6" library="Color-Experimentation" deviceset="V_USB" device=""/>
+<part name="JP3" library="Color-Experimentation" deviceset="JUMPER-SMT_2_NO" device="_SILK"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="320.04" y="142.24" size="1.778" layer="97">Decoupling Caps</text>
-<text x="449.58" y="106.68" size="1.778" layer="97">After programming, close JP1, JP2</text>
+<text x="449.58" y="106.68" size="1.778" layer="97">After programming, close JP1, JP2, JP3</text>
 <text x="474.98" y="170.18" size="1.778" layer="97">LED Decoupling Caps</text>
 <text x="398.78" y="165.1" size="1.778" layer="97">USB Connector for Power</text>
 <text x="424.18" y="215.9" size="1.778" layer="97">Addressable LEDs</text>
 <text x="327.66" y="228.6" size="1.778" layer="97">Slider Potentiometers</text>
 <text x="375.92" y="121.92" size="1.778" layer="97">Microcontroller</text>
-<text x="317.5" y="88.9" size="1.778" layer="97">Close J2 to enable MIXED LED</text>
+<text x="317.5" y="68.58" size="1.778" layer="97">Close J2 to enable MIXED LED</text>
 </plain>
 <instances>
 <instance part="U2" gate="A" x="386.08" y="111.76" smashed="yes">
@@ -1081,18 +1149,28 @@ LETTER landscape</description>
 <instance part="GND5" gate="1" x="335.28" y="121.92" smashed="yes">
 <attribute name="VALUE" x="332.74" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="J2" gate="G$1" x="330.2" y="101.6" smashed="yes">
-<attribute name="VALUE" x="327.66" y="96.774" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="327.66" y="107.188" size="1.778" layer="95" font="vector"/>
+<instance part="J2" gate="G$1" x="330.2" y="81.28" smashed="yes">
+<attribute name="VALUE" x="327.66" y="76.454" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="327.66" y="86.868" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND6" gate="1" x="340.36" y="96.52" smashed="yes">
-<attribute name="VALUE" x="337.82" y="93.98" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="340.36" y="76.2" smashed="yes">
+<attribute name="VALUE" x="337.82" y="73.66" size="1.778" layer="96"/>
 </instance>
 <instance part="VCC" gate="G$1" x="441.96" y="165.1" smashed="yes">
 <attribute name="NAME" x="447.04" y="165.1" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND" gate="G$1" x="441.96" y="144.78" smashed="yes">
 <attribute name="NAME" x="447.04" y="144.78" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="R1" gate="G$1" x="332.74" y="93.98" smashed="yes">
+<attribute name="NAME" x="328.93" y="95.4786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="328.93" y="90.678" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY6" gate="G$1" x="325.12" y="99.06" smashed="yes">
+<attribute name="VALUE" x="325.12" y="101.854" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="JP3" gate="G$1" x="340.36" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="337.82" y="99.06" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -1180,9 +1258,9 @@ LETTER landscape</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="101.6" x2="340.36" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="81.28" x2="340.36" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="340.36" y1="101.6" x2="340.36" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="81.28" x2="340.36" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_USB" class="1">
@@ -1262,6 +1340,12 @@ LETTER landscape</description>
 <junction x="312.42" y="208.28"/>
 <wire x1="312.42" y1="208.28" x2="312.42" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="V_USB"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="327.66" y1="93.98" x2="325.12" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="93.98" x2="325.12" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="SUPPLY6" gate="G$1" pin="V_USB"/>
 </segment>
 </net>
 <net name="LED_DATA_OUT" class="0">
@@ -1370,13 +1454,24 @@ LETTER landscape</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="PB1(MISO/PCINT1)"/>
-<wire x1="340.36" y1="111.76" x2="355.6" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="MISO" gate="G$1" pin="1"/>
+<wire x1="355.6" y1="111.76" x2="340.36" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="111.76" x2="314.96" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="106.68" x2="340.36" y2="111.76" width="0.1524" layer="91"/>
 <junction x="340.36" y="111.76"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="337.82" y1="93.98" x2="340.36" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="83.82" x2="340.36" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="104.14" x2="340.36" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="104.14" x2="340.36" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="83.82" x2="340.36" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="93.98" x2="340.36" y2="96.52" width="0.1524" layer="91"/>
+<junction x="340.36" y="93.98"/>
 </segment>
 </net>
 </nets>
@@ -1384,4 +1479,16 @@ LETTER landscape</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
