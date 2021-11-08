@@ -187,11 +187,11 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Color-Experimentation">
+<library name="Color-Experimentation" urn="urn:adsk.eagle:library:32037284">
 <description>Generated from &lt;b&gt;Color-Experimentation.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
-<package name="WS2812-5X5-4PIN">
+<package name="WS2812-5X5-4PIN" urn="urn:adsk.eagle:footprint:32037285/1" library_version="2">
 <description>&lt;h3&gt;WS2812B&lt;/h3&gt;
 
 &lt;p&gt;Specifications:
@@ -226,7 +226,7 @@ by exp-lbrs.ulp</description>
 <text x="0" y="2.794" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
-<package name="POT_PTA2043">
+<package name="POT_PTA2043" urn="urn:adsk.eagle:footprint:32037289/1" library_version="2">
 <wire x1="-4.6482" y1="-17.526" x2="-2.7686" y2="-17.526" width="0.1524" layer="21"/>
 <wire x1="4.5974" y1="-17.526" x2="4.5974" y2="-12.6746" width="0.1524" layer="21"/>
 <wire x1="4.5974" y1="17.526" x2="-0.7366" y2="17.526" width="0.1524" layer="21"/>
@@ -264,7 +264,7 @@ by exp-lbrs.ulp</description>
 <vertex x="1.2573" y="-7.3914"/>
 </polygon>
 </package>
-<package name="CAP_0603">
+<package name="CAP_0603" urn="urn:adsk.eagle:footprint:32037291/1" library_version="2">
 <description>&lt;p&gt;&lt;b&gt;Generic 0603 (1608 metric) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
 <wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
@@ -283,7 +283,7 @@ by exp-lbrs.ulp</description>
 <text x="0" y="0.762" size="1.016" layer="25" font="vector" ratio="18" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.762" size="1.016" layer="27" font="vector" ratio="18" align="top-center">&gt;VALUE</text>
 </package>
-<package name="C0603">
+<package name="C0603" urn="urn:adsk.eagle:footprint:32037292/1" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -299,12 +299,12 @@ by exp-lbrs.ulp</description>
 <text x="0" y="0.635" size="1.016" layer="25" font="vector" ratio="18" align="bottom-center">&gt;NAME</text>
 <text x="-0.535" y="-1.005" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="TESTPOINT_40MIL_ROUND">
+<package name="TESTPOINT_40MIL_ROUND" urn="urn:adsk.eagle:footprint:32037286/1" library_version="2">
 <smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
 <text x="0" y="0.762" size="1.016" layer="25" font="vector" ratio="18" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.762" size="1.016" layer="27" font="vector" ratio="18" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CONN_10118193-0001LF_AMP">
+<package name="CONN_10118193-0001LF_AMP" urn="urn:adsk.eagle:footprint:32037290/1" library_version="2">
 <wire x1="-4.064" y1="-3.048" x2="4.064" y2="-3.048" width="0.1524" layer="21"/>
 <wire x1="4.064" y1="-3.048" x2="4.064" y2="-0.5588" width="0.1524" layer="21"/>
 <wire x1="2.0574" y1="3.048" x2="1.8288" y2="3.048" width="0.1524" layer="21"/>
@@ -328,15 +328,15 @@ by exp-lbrs.ulp</description>
 <smd name="8" x="-1.2" y="-0.016303125" dx="1.905" dy="1.905" layer="1"/>
 <smd name="9" x="1.2" y="-0.016303125" dx="1.905" dy="1.905" layer="1"/>
 <smd name="S_1" x="-3.3" y="-0.016303125" dx="1.6002" dy="0.9144" layer="1" roundness="100" rot="R90"/>
+<smd name="S_2" x="3.3" y="-0.016303125" dx="1.6002" dy="0.9144" layer="1" roundness="100" rot="R90"/>
 <pad name="S_1_H1" x="-3.302" y="0.3302" drill="0.508" diameter="0.508"/>
 <pad name="S_1_H2" x="-3.302" y="-0.3556" drill="0.508" diameter="0.508"/>
-<smd name="S_2" x="3.3" y="-0.016303125" dx="1.6002" dy="0.9144" layer="1" roundness="100" rot="R90"/>
 <pad name="S_2_H1" x="3.302" y="0.3302" drill="0.508" diameter="0.508"/>
 <pad name="S_2_H2" x="3.302" y="-0.3556" drill="0.508" diameter="0.508"/>
 <text x="-2.9464" y="3.7846" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-1.7272" y="-2.4638" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
-<package name="1X02">
+<package name="1X02" urn="urn:adsk.eagle:footprint:32037293/1" library_version="2">
 <description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:2&lt;/li&gt;
@@ -366,7 +366,7 @@ by exp-lbrs.ulp</description>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="SMT-JUMPER_2_NO_SILK">
+<package name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:footprint:32037287/1" library_version="2">
 <wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
@@ -380,7 +380,7 @@ by exp-lbrs.ulp</description>
 <text x="0" y="1.143" size="1.016" layer="25" font="vector" ratio="18" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.143" size="1.016" layer="27" font="vector" ratio="18" align="top-center">&gt;VALUE</text>
 </package>
-<package name="QFN-20-THERMAL">
+<package name="QFN-20-THERMAL" urn="urn:adsk.eagle:footprint:32037288/1" library_version="2">
 <circle x="-2.995" y="1" radius="0.1" width="0.2" layer="21"/>
 <circle x="-2.995" y="1" radius="0.1" width="0.2" layer="51"/>
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="51"/>
@@ -443,16 +443,81 @@ chip</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:23298173/3" type="model" library_version="52" library_locally_modified="yes">
+<package3d name="R0603" urn="urn:adsk.eagle:package:23298173/4" type="model" library_version="2">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <packageinstances>
 <packageinstance name="R0603"/>
 </packageinstances>
 </package3d>
+<package3d name="WS2812-5X5-4PIN" urn="urn:adsk.eagle:package:32037308/2" type="model" library_version="2">
+<description>&lt;h3&gt;WS2812B&lt;/h3&gt;
+
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
+&lt;li&gt;Size: 5.0 x 5.0 mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Datasheet referenced for footprint:&lt;/b&gt; &lt;a href="http://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf"&gt;WS2812B&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device:
+&lt;ul&gt;&lt;li&gt;WS2812B&lt;/li&gt;</description>
+<packageinstances>
+<packageinstance name="WS2812-5X5-4PIN"/>
+</packageinstances>
+</package3d>
+<package3d name="POT_PTA2043" urn="urn:adsk.eagle:package:32037312/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="POT_PTA2043"/>
+</packageinstances>
+</package3d>
+<package3d name="CAP_0603" urn="urn:adsk.eagle:package:32037314/2" type="model" library_version="2">
+<description>&lt;p&gt;&lt;b&gt;Generic 0603 (1608 metric) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAP_0603"/>
+</packageinstances>
+</package3d>
+<package3d name="C0603" urn="urn:adsk.eagle:package:32037315/3" type="model" library_version="2">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="C0603"/>
+</packageinstances>
+</package3d>
+<package3d name="TESTPOINT_40MIL_ROUND" urn="urn:adsk.eagle:package:32037309/2" type="empty" library_version="2">
+<packageinstances>
+<packageinstance name="TESTPOINT_40MIL_ROUND"/>
+</packageinstances>
+</package3d>
+<package3d name="CONN_10118193-0001LF_AMP" urn="urn:adsk.eagle:package:32037313/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="CONN_10118193-0001LF_AMP"/>
+</packageinstances>
+</package3d>
+<package3d name="1X02" urn="urn:adsk.eagle:package:32037316/2" type="model" library_version="2">
+<description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:2&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="1X02"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:package:32037310/2" type="empty" library_version="2">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NO_SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="QFN-20-THERMAL" urn="urn:adsk.eagle:package:32037311/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="QFN-20-THERMAL"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="LED-RGB-ADDRESSABLE-1WIRE">
+<symbol name="LED-RGB-ADDRESSABLE-1WIRE" urn="urn:adsk.eagle:symbol:32037295/1" library_version="2">
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-2.54" x2="7.62" y2="5.08" width="0.254" layer="94"/>
@@ -522,7 +587,7 @@ chip</description>
 <text x="-5.842" y="0" size="1.778" layer="95" font="vector" rot="R180" align="center">DI</text>
 <text x="6.096" y="0" size="1.778" layer="95" font="vector" rot="R180" align="center">DO</text>
 </symbol>
-<symbol name="POT">
+<symbol name="POT" urn="urn:adsk.eagle:symbol:32037301/1" library_version="2">
 <wire x1="9.525" y1="3.81" x2="10.16" y2="1.905" width="0.2032" layer="94"/>
 <wire x1="10.795" y1="3.81" x2="10.16" y2="1.905" width="0.2032" layer="94"/>
 <wire x1="9.525" y1="3.81" x2="10.16" y2="3.81" width="0.2032" layer="94"/>
@@ -542,7 +607,7 @@ chip</description>
 <pin name="3" x="20.32" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <text x="12.7" y="2.54" size="1.778" layer="95" font="vector" rot="SR0">&gt;Name</text>
 </symbol>
-<symbol name="CAP">
+<symbol name="CAP" urn="urn:adsk.eagle:symbol:32037306/1" library_version="2">
 <rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
 <rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
@@ -552,7 +617,7 @@ chip</description>
 <text x="1.524" y="2.921" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="1.524" y="-2.159" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
-<symbol name="C">
+<symbol name="C" urn="urn:adsk.eagle:symbol:32037307/1" library_version="2">
 <rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
 <rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
@@ -562,10 +627,10 @@ chip</description>
 <text x="1.524" y="0.381" size="1.778" layer="95">&gt;NAME</text>
 <text x="1.524" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="LETTER_L">
+<symbol name="LETTER_L" urn="urn:adsk.eagle:symbol:32037302/1" library_version="2">
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="12" rows="17" layer="94"/>
 </symbol>
-<symbol name="DOCFIELD">
+<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:32037304/1" library_version="2">
 <wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
 <wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
@@ -587,19 +652,19 @@ chip</description>
 <text x="1.27" y="6.35" size="2.54" layer="94">TITLE:</text>
 <text x="17.78" y="6.35" size="2.54" layer="94">&gt;DRAWING_NAME</text>
 </symbol>
-<symbol name="TEST-POINT">
+<symbol name="TEST-POINT" urn="urn:adsk.eagle:symbol:32037297/1" library_version="2">
 <wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
 <wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
 <pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
 <text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
 </symbol>
-<symbol name="GND">
+<symbol name="GND" urn="urn:adsk.eagle:symbol:32037303/1" library_version="2">
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="USB">
+<symbol name="USB" urn="urn:adsk.eagle:symbol:32037300/1" library_version="2">
 <description>&lt;h3&gt;USB A/B - with Shield Pins&lt;/h3&gt;
 &lt;p&gt;USB connector for type-A and type-B connectors. Includes shield pins broken out. &lt;/p&gt;</description>
 <wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
@@ -615,7 +680,7 @@ chip</description>
 <text x="-5.08" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-5.08" y="-9.906" size="1.778" layer="96" font="vector" rot="MR180" align="top-left">&gt;VALUE</text>
 </symbol>
-<symbol name="CONN_02">
+<symbol name="CONN_02" urn="urn:adsk.eagle:symbol:32037305/1" library_version="2">
 <description>&lt;h3&gt;2 Pin Connection&lt;/h3&gt;</description>
 <wire x1="3.81" y1="-2.54" x2="-5.08" y2="-2.54" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
@@ -628,7 +693,7 @@ chip</description>
 <text x="-2.54" y="-4.826" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 <text x="-2.54" y="5.588" size="1.778" layer="95" font="vector">&gt;NAME</text>
 </symbol>
-<symbol name="SMT-JUMPER_2_NO">
+<symbol name="SMT-JUMPER_2_NO" urn="urn:adsk.eagle:symbol:32037298/1" library_version="2">
 <wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
@@ -638,14 +703,14 @@ chip</description>
 <text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 </symbol>
-<symbol name="V_USB">
+<symbol name="V_USB" urn="urn:adsk.eagle:symbol:32037296/1" library_version="2">
 <description>&lt;h3&gt;USB Voltage Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
 <pin name="V_USB" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
-<symbol name="ATTINY85-20MU">
+<symbol name="ATTINY85-20MU" urn="urn:adsk.eagle:symbol:32037299/1" library_version="2">
 <wire x1="-25.4" y1="7.62" x2="-25.4" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="-25.4" y1="-7.62" x2="22.86" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="22.86" y1="-7.62" x2="22.86" y2="7.62" width="0.1524" layer="94"/>
@@ -662,7 +727,7 @@ chip</description>
 <text x="-25.4" y="7.62" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-25.4" y="-10.16" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
-<symbol name="R-US">
+<symbol name="R-US" urn="urn:adsk.eagle:symbol:32037294/1" library_version="2">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
 <wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
@@ -679,7 +744,7 @@ chip</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WS2812" prefix="D">
+<deviceset name="WS2812" urn="urn:adsk.eagle:component:32037318/2" prefix="D" library_version="2">
 <description>&lt;h3&gt;Addressable RGB LED - 1 Wire&lt;/h3&gt;
 
 Common names: WS2812, SK6812, Neopixel, APA-106, etc.
@@ -709,6 +774,9 @@ SMD LED with built-in controller IC.
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32037308/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MFG" value="SparkFun.com"/>
@@ -719,7 +787,7 @@ SMD LED with built-in controller IC.
 </device>
 </devices>
 </deviceset>
-<deviceset name="PTA2043-2015DPB103" prefix="R">
+<deviceset name="PTA2043-2015DPB103" urn="urn:adsk.eagle:component:32037323/2" prefix="R" library_version="2">
 <description>10 kOhms 0.1W, 1/10W Through Hole Slide Potentiometer Top Adjustment Type</description>
 <gates>
 <gate name="G$1" symbol="POT" x="-10.16" y="0" swaplevel="1"/>
@@ -731,6 +799,9 @@ SMD LED with built-in controller IC.
 <connect gate="G$1" pin="2" pad="WIPER"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32037312/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MFG" value="Bourns Inc." constant="no"/>
@@ -741,7 +812,7 @@ SMD LED with built-in controller IC.
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP_0.1UF_25V_X7R" prefix="C" uservalue="yes">
+<deviceset name="CAP_0.1UF_25V_X7R" urn="urn:adsk.eagle:component:32037328/2" prefix="C" uservalue="yes" library_version="2">
 <description>0.1µF ±10% 25V Ceramic Capacitor X7R</description>
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
@@ -752,6 +823,9 @@ SMD LED with built-in controller IC.
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32037314/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MFG" value="Samsung Electro-Mechanics" constant="no"/>
@@ -762,7 +836,7 @@ SMD LED with built-in controller IC.
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP_22UF_16V_X5R" prefix="C">
+<deviceset name="CAP_22UF_16V_X5R" urn="urn:adsk.eagle:component:32037327/2" prefix="C" library_version="2">
 <description>22µF ±20% 16V Ceramic Capacitor X5R 0805 (2012 Metric)</description>
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
@@ -773,6 +847,9 @@ SMD LED with built-in controller IC.
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32037315/3"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MFG" value="Samsung Electro-Mechanics" constant="no"/>
@@ -783,7 +860,7 @@ SMD LED with built-in controller IC.
 </device>
 </devices>
 </deviceset>
-<deviceset name="LETTER_L" prefix="FRAME" uservalue="yes">
+<deviceset name="LETTER_L" urn="urn:adsk.eagle:component:32037324/1" prefix="FRAME" uservalue="yes" library_version="2">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 LETTER landscape</description>
 <gates>
@@ -798,7 +875,7 @@ LETTER landscape</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEST-POINT" prefix="TP">
+<deviceset name="TEST-POINT" urn="urn:adsk.eagle:component:32037320/2" prefix="TP" library_version="2">
 <description>40mil Diameter Round Test Point</description>
 <gates>
 <gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
@@ -808,13 +885,16 @@ LETTER landscape</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32037309/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND" prefix="GND">
+<deviceset name="GND" urn="urn:adsk.eagle:component:32037325/1" prefix="GND" library_version="2">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
@@ -827,7 +907,7 @@ LETTER landscape</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="10118193-0001LF" prefix="J">
+<deviceset name="10118193-0001LF" urn="urn:adsk.eagle:component:32037329/2" prefix="J" library_version="2">
 <gates>
 <gate name="A" symbol="USB" x="0" y="0"/>
 </gates>
@@ -840,6 +920,9 @@ LETTER landscape</description>
 <connect gate="A" pin="SHLD" pad="4 6 7 8 9 S_1 S_1_H1 S_1_H2 S_2 S_2_H1 S_2_H2"/>
 <connect gate="A" pin="VBUS" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32037313/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MFG" value="Amphenol ICC" constant="no"/>
@@ -849,7 +932,7 @@ LETTER landscape</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_02" prefix="J" uservalue="yes">
+<deviceset name="CONN_02" urn="urn:adsk.eagle:component:32037326/2" prefix="J" uservalue="yes" library_version="2">
 <description>0.1" Header - 2 pin, 1 row</description>
 <gates>
 <gate name="G$1" symbol="CONN_02" x="-2.54" y="0"/>
@@ -860,6 +943,9 @@ LETTER landscape</description>
 <connect gate="G$1" pin="1" pad="2"/>
 <connect gate="G$1" pin="2" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32037316/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MFG" value="Amazon.com" constant="no"/>
@@ -869,7 +955,7 @@ LETTER landscape</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="JUMPER-SMT_2_NO" prefix="JP">
+<deviceset name="JUMPER-SMT_2_NO" urn="urn:adsk.eagle:component:32037321/2" prefix="JP" library_version="2">
 <description>Normally Open solder jumper</description>
 <gates>
 <gate name="G$1" symbol="SMT-JUMPER_2_NO" x="0" y="0"/>
@@ -880,13 +966,16 @@ LETTER landscape</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32037310/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="V_USB" prefix="SUPPLY">
+<deviceset name="V_USB" urn="urn:adsk.eagle:component:32037319/1" prefix="SUPPLY" library_version="2">
 <description>&lt;h3&gt;USB Voltage Supply&lt;/h3&gt;</description>
 <gates>
 <gate name="G$1" symbol="V_USB" x="0" y="0"/>
@@ -899,7 +988,7 @@ LETTER landscape</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY85-20MUR" prefix="U">
+<deviceset name="ATTINY85-20MUR" urn="urn:adsk.eagle:component:32037322/2" prefix="U" library_version="2">
 <description>AVR series Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 20-QFN-EP (4x4)</description>
 <gates>
 <gate name="A" symbol="ATTINY85-20MU" x="0" y="0"/>
@@ -917,6 +1006,9 @@ LETTER landscape</description>
 <connect gate="A" pin="PB5(PCINT5/!RESET)" pad="1"/>
 <connect gate="A" pin="VCC" pad="15"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32037311/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MFG" value="Microchip" constant="no"/>
@@ -926,7 +1018,7 @@ LETTER landscape</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RES_10K_1%" prefix="R">
+<deviceset name="RES_10K_1%" urn="urn:adsk.eagle:component:32037317/2" prefix="R" library_version="2">
 <description>10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
@@ -938,7 +1030,7 @@ LETTER landscape</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23298173/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23298173/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -965,62 +1057,62 @@ LETTER landscape</description>
 </class>
 </classes>
 <parts>
-<part name="U2" library="Color-Experimentation" deviceset="ATTINY85-20MUR" device=""/>
-<part name="GND14" library="Color-Experimentation" deviceset="GND" device=""/>
-<part name="SUPPLY1" library="Color-Experimentation" deviceset="V_USB" device=""/>
-<part name="SCK" library="Color-Experimentation" deviceset="TEST-POINT" device="40MIL">
+<part name="U2" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="ATTINY85-20MUR" device="" package3d_urn="urn:adsk.eagle:package:32037311/2"/>
+<part name="GND14" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="GND" device=""/>
+<part name="SUPPLY1" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="V_USB" device=""/>
+<part name="SCK" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="TEST-POINT" device="40MIL" package3d_urn="urn:adsk.eagle:package:32037309/2">
 <variant name="DEFAULT" populate="no"/>
 </part>
-<part name="MOSI" library="Color-Experimentation" deviceset="TEST-POINT" device="40MIL">
+<part name="MOSI" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="TEST-POINT" device="40MIL" package3d_urn="urn:adsk.eagle:package:32037309/2">
 <variant name="DEFAULT" populate="no"/>
 </part>
-<part name="MISO" library="Color-Experimentation" deviceset="TEST-POINT" device="40MIL">
+<part name="MISO" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="TEST-POINT" device="40MIL" package3d_urn="urn:adsk.eagle:package:32037309/2">
 <variant name="DEFAULT" populate="no"/>
 </part>
-<part name="RST" library="Color-Experimentation" deviceset="TEST-POINT" device="40MIL">
+<part name="RST" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="TEST-POINT" device="40MIL" package3d_urn="urn:adsk.eagle:package:32037309/2">
 <variant name="DEFAULT" populate="no"/>
 </part>
-<part name="JP1" library="Color-Experimentation" deviceset="JUMPER-SMT_2_NO" device="_SILK">
+<part name="JP1" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:32037310/2">
 <variant name="DEFAULT" populate="no"/>
 </part>
-<part name="JP2" library="Color-Experimentation" deviceset="JUMPER-SMT_2_NO" device="_SILK">
+<part name="JP2" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:32037310/2">
 <variant name="DEFAULT" populate="no"/>
 </part>
-<part name="FRAME2" library="Color-Experimentation" deviceset="LETTER_L" device=""/>
-<part name="J1" library="Color-Experimentation" deviceset="10118193-0001LF" device=""/>
-<part name="SUPPLY2" library="Color-Experimentation" deviceset="V_USB" device=""/>
-<part name="GND2" library="Color-Experimentation" deviceset="GND" device=""/>
-<part name="C1" library="Color-Experimentation" deviceset="CAP_0.1UF_25V_X7R" device="-0603" value="0.1uF"/>
-<part name="C2" library="Color-Experimentation" deviceset="CAP_22UF_16V_X5R" device="-0603" value="22uF"/>
-<part name="RED" library="Color-Experimentation" deviceset="WS2812" device="_5050" value="WS2812"/>
-<part name="GREEN" library="Color-Experimentation" deviceset="WS2812" device="_5050" value="WS2812"/>
-<part name="BLUE" library="Color-Experimentation" deviceset="WS2812" device="_5050" value="WS2812"/>
-<part name="MIXED" library="Color-Experimentation" deviceset="WS2812" device="_5050" value="WS2812"/>
-<part name="GND1" library="Color-Experimentation" deviceset="GND" device=""/>
-<part name="SUPPLY3" library="Color-Experimentation" deviceset="V_USB" device=""/>
-<part name="C3" library="Color-Experimentation" deviceset="CAP_0.1UF_25V_X7R" device="-0603" value="0.1uF"/>
-<part name="C4" library="Color-Experimentation" deviceset="CAP_0.1UF_25V_X7R" device="-0603" value="0.1uF"/>
-<part name="C5" library="Color-Experimentation" deviceset="CAP_0.1UF_25V_X7R" device="-0603" value="0.1uF"/>
-<part name="C6" library="Color-Experimentation" deviceset="CAP_0.1UF_25V_X7R" device="-0603" value="0.1uF"/>
-<part name="GND3" library="Color-Experimentation" deviceset="GND" device=""/>
-<part name="SUPPLY4" library="Color-Experimentation" deviceset="V_USB" device=""/>
-<part name="RED_POT" library="Color-Experimentation" deviceset="PTA2043-2015DPB103" device="" value="10k"/>
-<part name="GREEN_POT" library="Color-Experimentation" deviceset="PTA2043-2015DPB103" device="" value="10k"/>
-<part name="BLUE_POT" library="Color-Experimentation" deviceset="PTA2043-2015DPB103" device="" value="10k"/>
-<part name="GND4" library="Color-Experimentation" deviceset="GND" device=""/>
-<part name="SUPPLY5" library="Color-Experimentation" deviceset="V_USB" device=""/>
-<part name="GND5" library="Color-Experimentation" deviceset="GND" device=""/>
-<part name="J2" library="Color-Experimentation" deviceset="CONN_02" device=""/>
-<part name="GND6" library="Color-Experimentation" deviceset="GND" device=""/>
-<part name="VCC" library="Color-Experimentation" deviceset="TEST-POINT" device="40MIL">
+<part name="FRAME2" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="LETTER_L" device=""/>
+<part name="J1" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="10118193-0001LF" device="" package3d_urn="urn:adsk.eagle:package:32037313/2"/>
+<part name="SUPPLY2" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="V_USB" device=""/>
+<part name="GND2" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="GND" device=""/>
+<part name="C1" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="CAP_0.1UF_25V_X7R" device="-0603" package3d_urn="urn:adsk.eagle:package:32037314/2" value="0.1uF"/>
+<part name="C2" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="CAP_22UF_16V_X5R" device="-0603" package3d_urn="urn:adsk.eagle:package:32037315/3" value="22uF"/>
+<part name="RED" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="WS2812" device="_5050" package3d_urn="urn:adsk.eagle:package:32037308/2" value="WS2812"/>
+<part name="GREEN" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="WS2812" device="_5050" package3d_urn="urn:adsk.eagle:package:32037308/2" value="WS2812"/>
+<part name="BLUE" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="WS2812" device="_5050" package3d_urn="urn:adsk.eagle:package:32037308/2" value="WS2812"/>
+<part name="MIXED" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="WS2812" device="_5050" package3d_urn="urn:adsk.eagle:package:32037308/2" value="WS2812"/>
+<part name="GND1" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="GND" device=""/>
+<part name="SUPPLY3" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="V_USB" device=""/>
+<part name="C3" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="CAP_0.1UF_25V_X7R" device="-0603" package3d_urn="urn:adsk.eagle:package:32037314/2" value="0.1uF"/>
+<part name="C4" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="CAP_0.1UF_25V_X7R" device="-0603" package3d_urn="urn:adsk.eagle:package:32037314/2" value="0.1uF"/>
+<part name="C5" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="CAP_0.1UF_25V_X7R" device="-0603" package3d_urn="urn:adsk.eagle:package:32037314/2" value="0.1uF"/>
+<part name="C6" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="CAP_0.1UF_25V_X7R" device="-0603" package3d_urn="urn:adsk.eagle:package:32037314/2" value="0.1uF"/>
+<part name="GND3" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="GND" device=""/>
+<part name="SUPPLY4" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="V_USB" device=""/>
+<part name="RED_POT" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="PTA2043-2015DPB103" device="" package3d_urn="urn:adsk.eagle:package:32037312/2" value="10k"/>
+<part name="GREEN_POT" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="PTA2043-2015DPB103" device="" package3d_urn="urn:adsk.eagle:package:32037312/2" value="10k"/>
+<part name="BLUE_POT" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="PTA2043-2015DPB103" device="" package3d_urn="urn:adsk.eagle:package:32037312/2" value="10k"/>
+<part name="GND4" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="GND" device=""/>
+<part name="SUPPLY5" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="V_USB" device=""/>
+<part name="GND5" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="GND" device=""/>
+<part name="J2" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:32037316/2"/>
+<part name="GND6" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="GND" device=""/>
+<part name="VCC" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="TEST-POINT" device="40MIL" package3d_urn="urn:adsk.eagle:package:32037309/2">
 <variant name="DEFAULT" populate="no"/>
 </part>
-<part name="GND" library="Color-Experimentation" deviceset="TEST-POINT" device="40MIL">
+<part name="GND" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="TEST-POINT" device="40MIL" package3d_urn="urn:adsk.eagle:package:32037309/2">
 <variant name="DEFAULT" populate="no"/>
 </part>
-<part name="R1" library="Color-Experimentation" deviceset="RES_10K_1%" device="R0603" package3d_urn="urn:adsk.eagle:package:23298173/3" value="10k"/>
-<part name="SUPPLY6" library="Color-Experimentation" deviceset="V_USB" device=""/>
-<part name="JP3" library="Color-Experimentation" deviceset="JUMPER-SMT_2_NO" device="_SILK"/>
+<part name="R1" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="RES_10K_1%" device="R0603" package3d_urn="urn:adsk.eagle:package:23298173/4" value="10k"/>
+<part name="SUPPLY6" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="V_USB" device=""/>
+<part name="JP3" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:32037310/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -1481,6 +1573,11 @@ LETTER landscape</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
