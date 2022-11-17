@@ -380,50 +380,6 @@ by exp-lbrs.ulp</description>
 <text x="0" y="1.143" size="1.016" layer="25" font="vector" ratio="18" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.143" size="1.016" layer="27" font="vector" ratio="18" align="top-center">&gt;VALUE</text>
 </package>
-<package name="QFN-20-THERMAL" urn="urn:adsk.eagle:footprint:32037288/1" library_version="2">
-<circle x="-2.995" y="1" radius="0.1" width="0.2" layer="21"/>
-<circle x="-2.995" y="1" radius="0.1" width="0.2" layer="51"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="51"/>
-<wire x1="2" y1="2" x2="-2" y2="2" width="0.127" layer="51"/>
-<wire x1="2" y1="-2" x2="2" y2="2" width="0.127" layer="51"/>
-<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="51"/>
-<wire x1="2" y1="-2" x2="1.455" y2="-2" width="0.127" layer="21"/>
-<wire x1="2" y1="2" x2="1.455" y2="2" width="0.127" layer="21"/>
-<wire x1="-2" y1="-2" x2="-1.455" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2" y1="2" x2="-1.455" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="-2" x2="2" y2="-1.455" width="0.127" layer="21"/>
-<wire x1="2" y1="2" x2="2" y2="1.455" width="0.127" layer="21"/>
-<wire x1="-2" y1="-2" x2="-2" y2="-1.455" width="0.127" layer="21"/>
-<wire x1="-2" y1="2" x2="-2" y2="1.455" width="0.127" layer="21"/>
-<wire x1="-2.635" y1="-2.635" x2="2.635" y2="-2.635" width="0.05" layer="39"/>
-<wire x1="-2.635" y1="2.635" x2="2.635" y2="2.635" width="0.05" layer="39"/>
-<wire x1="-2.635" y1="-2.635" x2="-2.635" y2="2.635" width="0.05" layer="39"/>
-<wire x1="2.635" y1="-2.635" x2="2.635" y2="2.635" width="0.05" layer="39"/>
-<rectangle x1="-0.71" y1="-0.71" x2="0.71" y2="0.71" layer="31"/>
-<smd name="1" x="-1.935" y="1" dx="0.9" dy="0.26" layer="1" roundness="25"/>
-<smd name="2" x="-1.935" y="0.5" dx="0.9" dy="0.26" layer="1" roundness="25"/>
-<smd name="3" x="-1.935" y="0" dx="0.9" dy="0.26" layer="1" roundness="25"/>
-<smd name="4" x="-1.935" y="-0.5" dx="0.9" dy="0.26" layer="1" roundness="25"/>
-<smd name="5" x="-1.935" y="-1" dx="0.9" dy="0.26" layer="1" roundness="25"/>
-<smd name="6" x="-1" y="-1.935" dx="0.9" dy="0.26" layer="1" roundness="25" rot="R90"/>
-<smd name="7" x="-0.5" y="-1.935" dx="0.9" dy="0.26" layer="1" roundness="25" rot="R90"/>
-<smd name="8" x="0" y="-1.935" dx="0.9" dy="0.26" layer="1" roundness="25" rot="R90"/>
-<smd name="9" x="0.5" y="-1.935" dx="0.9" dy="0.26" layer="1" roundness="25" rot="R90"/>
-<smd name="10" x="1" y="-1.935" dx="0.9" dy="0.26" layer="1" roundness="25" rot="R90"/>
-<smd name="11" x="1.935" y="-1" dx="0.9" dy="0.26" layer="1" roundness="25"/>
-<smd name="12" x="1.935" y="-0.5" dx="0.9" dy="0.26" layer="1" roundness="25"/>
-<smd name="13" x="1.935" y="0" dx="0.9" dy="0.26" layer="1" roundness="25"/>
-<smd name="14" x="1.935" y="0.5" dx="0.9" dy="0.26" layer="1" roundness="25"/>
-<smd name="15" x="1.935" y="1" dx="0.9" dy="0.26" layer="1" roundness="25"/>
-<smd name="16" x="1" y="1.935" dx="0.9" dy="0.26" layer="1" roundness="25" rot="R90"/>
-<smd name="17" x="0.5" y="1.935" dx="0.9" dy="0.26" layer="1" roundness="25" rot="R90"/>
-<smd name="18" x="0" y="1.935" dx="0.9" dy="0.26" layer="1" roundness="25" rot="R90"/>
-<smd name="19" x="-0.5" y="1.935" dx="0.9" dy="0.26" layer="1" roundness="25" rot="R90"/>
-<smd name="20" x="-1" y="1.935" dx="0.9" dy="0.26" layer="1" roundness="25" rot="R90"/>
-<smd name="21" x="0" y="0" dx="2.25" dy="2.25" layer="1" cream="no"/>
-<text x="-2.91" y="-2.815" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-2.91" y="2.815" size="1.27" layer="25">&gt;NAME</text>
-</package>
 <package name="R0603" urn="urn:adsk.eagle:footprint:23298111/2" library_version="52" library_locally_modified="yes">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
@@ -440,6 +396,30 @@ chip</description>
 <smd name="2" x="0.85" y="0" dx="0.9" dy="1" layer="1"/>
 <text x="0" y="0.789" size="1.016" layer="25" font="vector" ratio="18" align="bottom-center">&gt;NAME</text>
 <text x="-0.989" y="-1.132" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="SOIC127P798X216-8N" library_version="2" library_locally_modified="yes">
+<circle x="-5.34" y="2.485" radius="0.1" width="0.2" layer="21"/>
+<circle x="-5.34" y="2.485" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-2.645" y1="2.62" x2="2.645" y2="2.62" width="0.127" layer="51"/>
+<wire x1="-2.645" y1="-2.62" x2="2.645" y2="-2.62" width="0.127" layer="51"/>
+<wire x1="-2.645" y1="2.62" x2="2.645" y2="2.62" width="0.127" layer="21"/>
+<wire x1="-2.645" y1="-2.62" x2="2.645" y2="-2.62" width="0.127" layer="21"/>
+<wire x1="-2.645" y1="2.62" x2="-2.645" y2="-2.62" width="0.127" layer="51"/>
+<wire x1="2.645" y1="2.62" x2="2.645" y2="-2.62" width="0.127" layer="51"/>
+<wire x1="-4.735" y1="2.87" x2="4.735" y2="2.87" width="0.05" layer="39"/>
+<wire x1="-4.735" y1="-2.87" x2="4.735" y2="-2.87" width="0.05" layer="39"/>
+<wire x1="-4.735" y1="2.87" x2="-4.735" y2="-2.87" width="0.05" layer="39"/>
+<wire x1="4.735" y1="2.87" x2="4.735" y2="-2.87" width="0.05" layer="39"/>
+<text x="-4.41" y="-2.852" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-4.41" y="2.852" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-3.63" y="1.905" dx="1.71" dy="0.58" layer="1" roundness="25"/>
+<smd name="2" x="-3.63" y="0.635" dx="1.71" dy="0.58" layer="1" roundness="25"/>
+<smd name="3" x="-3.63" y="-0.635" dx="1.71" dy="0.58" layer="1" roundness="25"/>
+<smd name="4" x="-3.63" y="-1.905" dx="1.71" dy="0.58" layer="1" roundness="25"/>
+<smd name="5" x="3.63" y="-1.905" dx="1.71" dy="0.58" layer="1" roundness="25"/>
+<smd name="6" x="3.63" y="-0.635" dx="1.71" dy="0.58" layer="1" roundness="25"/>
+<smd name="7" x="3.63" y="0.635" dx="1.71" dy="0.58" layer="1" roundness="25"/>
+<smd name="8" x="3.63" y="1.905" dx="1.71" dy="0.58" layer="1" roundness="25"/>
 </package>
 </packages>
 <packages3d>
@@ -508,11 +488,6 @@ chip</description>
 <package3d name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:package:32037310/2" type="empty" library_version="2">
 <packageinstances>
 <packageinstance name="SMT-JUMPER_2_NO_SILK"/>
-</packageinstances>
-</package3d>
-<package3d name="QFN-20-THERMAL" urn="urn:adsk.eagle:package:32037311/2" type="model" library_version="2">
-<packageinstances>
-<packageinstance name="QFN-20-THERMAL"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -710,23 +685,6 @@ chip</description>
 <pin name="V_USB" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
-<symbol name="ATTINY85-20MU" urn="urn:adsk.eagle:symbol:32037299/1" library_version="2">
-<wire x1="-25.4" y1="7.62" x2="-25.4" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-25.4" y1="-7.62" x2="22.86" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="22.86" y1="-7.62" x2="22.86" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="22.86" y1="7.62" x2="-25.4" y2="7.62" width="0.1524" layer="94"/>
-<pin name="GND" x="27.94" y="-5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="NC" x="27.94" y="5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="PB0(MOSI/PCINT0)" x="-30.48" y="2.54" length="middle" direction="pas"/>
-<pin name="PB1(MISO/PCINT1)" x="-30.48" y="0" length="middle" direction="pas"/>
-<pin name="PB2(SCK/PCINT2)" x="27.94" y="2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="PB3(PCINT3/ADC3)" x="27.94" y="0" length="middle" direction="pas" rot="R180"/>
-<pin name="PB4(PCINT4/ADC2)" x="27.94" y="-2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="PB5(PCINT5/!RESET)" x="-30.48" y="-5.08" length="middle" direction="pas"/>
-<pin name="VCC" x="-30.48" y="5.08" length="middle" direction="pas"/>
-<text x="-25.4" y="7.62" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-25.4" y="-10.16" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
-</symbol>
 <symbol name="R-US" urn="urn:adsk.eagle:symbol:32037294/1" library_version="2">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
@@ -741,6 +699,22 @@ chip</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ATTINY-20SU-1" library_version="2" library_locally_modified="yes">
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-25.4" y1="-7.62" x2="22.86" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="22.86" y1="-7.62" x2="22.86" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="22.86" y1="7.62" x2="-25.4" y2="7.62" width="0.1524" layer="94"/>
+<pin name="GND" x="27.94" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="PB0(MOSI/PCINT0)" x="-30.48" y="2.54" length="middle" direction="pas"/>
+<pin name="PB1(MISO/PCINT1)" x="-30.48" y="0" length="middle" direction="pas"/>
+<pin name="PB2(SCK/PCINT2)" x="27.94" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="PB3(PCINT3/ADC3)" x="27.94" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="PB4(PCINT4/ADC2)" x="27.94" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="PB5(PCINT5/!RESET)" x="-30.48" y="-5.08" length="middle" direction="pas"/>
+<pin name="VCC" x="-30.48" y="5.08" length="middle" direction="pas"/>
+<text x="-25.4" y="7.62" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-25.4" y="-10.16" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -988,36 +962,6 @@ LETTER landscape</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY85-20MUR" urn="urn:adsk.eagle:component:32037322/2" prefix="U" library_version="2">
-<description>AVR series Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 20-QFN-EP (4x4)</description>
-<gates>
-<gate name="A" symbol="ATTINY85-20MU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="QFN-20-THERMAL">
-<connects>
-<connect gate="A" pin="GND" pad="8"/>
-<connect gate="A" pin="NC" pad="3 4 6 7 9 10 13 16 17 18 19 20 21"/>
-<connect gate="A" pin="PB0(MOSI/PCINT0)" pad="11"/>
-<connect gate="A" pin="PB1(MISO/PCINT1)" pad="12"/>
-<connect gate="A" pin="PB2(SCK/PCINT2)" pad="14"/>
-<connect gate="A" pin="PB3(PCINT3/ADC3)" pad="2"/>
-<connect gate="A" pin="PB4(PCINT4/ADC2)" pad="5"/>
-<connect gate="A" pin="PB5(PCINT5/!RESET)" pad="1"/>
-<connect gate="A" pin="VCC" pad="15"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32037311/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MFG" value="Microchip" constant="no"/>
-<attribute name="MPN" value="ATTINY85-20MUR" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="RES_10K_1%" urn="urn:adsk.eagle:component:32037317/2" prefix="R" library_version="2">
 <description>10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film</description>
 <gates>
@@ -1042,6 +986,36 @@ LETTER landscape</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="ATTINY85-20SU" prefix="U" library_version="2" library_locally_modified="yes">
+<description>AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 8-SOIC  </description>
+<gates>
+<gate name="G$1" symbol="ATTINY-20SU-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P798X216-8N">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="PB0(MOSI/PCINT0)" pad="5"/>
+<connect gate="G$1" pin="PB1(MISO/PCINT1)" pad="6"/>
+<connect gate="G$1" pin="PB2(SCK/PCINT2)" pad="7"/>
+<connect gate="G$1" pin="PB3(PCINT3/ADC3)" pad="2"/>
+<connect gate="G$1" pin="PB4(PCINT4/ADC2)" pad="3"/>
+<connect gate="G$1" pin="PB5(PCINT5/!RESET)" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 8-SOIC "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="ATTINY85-20SU-ND"/>
+<attribute name="MF" value="Microchip"/>
+<attribute name="MP" value="ATTINY85-20SU"/>
+<attribute name="PACKAGE" value="SOIC-8 Microchip"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ATTINY85-20SU/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1057,7 +1031,6 @@ LETTER landscape</description>
 </class>
 </classes>
 <parts>
-<part name="U2" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="ATTINY85-20MUR" device="" package3d_urn="urn:adsk.eagle:package:32037311/2"/>
 <part name="GND14" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="V_USB" device=""/>
 <part name="SCK" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="TEST-POINT" device="40MIL" package3d_urn="urn:adsk.eagle:package:32037309/2">
@@ -1113,6 +1086,7 @@ LETTER landscape</description>
 <part name="R1" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="RES_10K_1%" device="R0603" package3d_urn="urn:adsk.eagle:package:23298173/4" value="10k"/>
 <part name="SUPPLY6" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="V_USB" device=""/>
 <part name="JP3" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:32037310/2"/>
+<part name="U3" library="Color-Experimentation" library_urn="urn:adsk.eagle:library:32037284" deviceset="ATTINY85-20SU" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1128,10 +1102,6 @@ LETTER landscape</description>
 <text x="431.8" y="78.74" size="3.81" layer="94">Jonathan Moyes</text>
 </plain>
 <instances>
-<instance part="U2" gate="A" x="386.08" y="111.76" smashed="yes">
-<attribute name="NAME" x="360.68" y="119.38" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="360.68" y="101.6" size="2.0828" layer="96" ratio="6" rot="SR0"/>
-</instance>
 <instance part="GND14" gate="1" x="419.1" y="93.98" smashed="yes">
 <attribute name="VALUE" x="416.56" y="91.44" size="1.778" layer="96"/>
 </instance>
@@ -1265,16 +1235,20 @@ LETTER landscape</description>
 <instance part="JP3" gate="G$1" x="340.36" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="337.82" y="99.06" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
+<instance part="U3" gate="G$1" x="386.08" y="111.76" smashed="yes">
+<attribute name="NAME" x="360.68" y="119.38" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="360.68" y="101.6" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="1">
 <segment>
-<pinref part="U2" gate="A" pin="GND"/>
 <wire x1="414.02" y1="106.68" x2="419.1" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="419.1" y1="106.68" x2="419.1" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J1" gate="A" pin="GND"/>
@@ -1358,7 +1332,6 @@ LETTER landscape</description>
 </net>
 <net name="V_USB" class="1">
 <segment>
-<pinref part="U2" gate="A" pin="VCC"/>
 <wire x1="355.6" y1="116.84" x2="350.52" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="V_USB"/>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -1371,6 +1344,7 @@ LETTER landscape</description>
 <wire x1="340.36" y1="139.7" x2="350.52" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="137.16" x2="340.36" y2="139.7" width="0.1524" layer="91"/>
 <junction x="340.36" y="139.7"/>
+<pinref part="U3" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="J1" gate="A" pin="VBUS"/>
@@ -1443,10 +1417,10 @@ LETTER landscape</description>
 </net>
 <net name="LED_DATA_OUT" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="PB0(MOSI/PCINT0)"/>
 <wire x1="355.6" y1="114.3" x2="327.66" y2="114.3" width="0.1524" layer="91"/>
 <label x="330.2" y="114.3" size="1.778" layer="95"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="U3" gate="G$1" pin="PB0(MOSI/PCINT0)"/>
 </segment>
 <segment>
 <label x="388.62" y="200.66" size="1.778" layer="95"/>
@@ -1462,16 +1436,16 @@ LETTER landscape</description>
 <label x="332.74" y="218.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U2" gate="A" pin="PB4(PCINT4/ADC2)"/>
 <wire x1="414.02" y1="109.22" x2="436.88" y2="109.22" width="0.1524" layer="91"/>
 <label x="419.1" y="109.22" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PB4(PCINT4/ADC2)"/>
 </segment>
 </net>
 <net name="POT_GREEN_IN_A" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="PB3(PCINT3/ADC3)"/>
 <wire x1="414.02" y1="111.76" x2="436.88" y2="111.76" width="0.1524" layer="91"/>
 <label x="419.1" y="111.76" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PB3(PCINT3/ADC3)"/>
 </segment>
 <segment>
 <pinref part="GREEN_POT" gate="G$1" pin="2"/>
@@ -1488,18 +1462,17 @@ LETTER landscape</description>
 <label x="332.74" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U2" gate="A" pin="PB2(SCK/PCINT2)"/>
 <wire x1="414.02" y1="114.3" x2="444.5" y2="114.3" width="0.1524" layer="91"/>
 <label x="419.1" y="114.3" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="406.4" y1="114.3" x2="414.02" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PB2(SCK/PCINT2)"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="PB5(PCINT5/!RESET)"/>
 <pinref part="RST" gate="G$1" pin="1"/>
 <wire x1="355.6" y1="106.68" x2="350.52" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PB5(PCINT5/!RESET)"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -1546,13 +1519,13 @@ LETTER landscape</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="PB1(MISO/PCINT1)"/>
 <pinref part="MISO" gate="G$1" pin="1"/>
 <wire x1="355.6" y1="111.76" x2="340.36" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="111.76" x2="314.96" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="106.68" x2="340.36" y2="111.76" width="0.1524" layer="91"/>
 <junction x="340.36" y="111.76"/>
+<pinref part="U3" gate="G$1" pin="PB1(MISO/PCINT1)"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -1570,6 +1543,12 @@ LETTER landscape</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,434.34,160.02,J1,VBUS,V_USB,,,"/>
+<approved hash="106,1,434.34,152.4,USB_MECH,,,,,"/>
+<approved hash="113,1,411.376,151.026,FRAME2,,,,,"/>
+<approved hash="113,1,333.527,83.9826,J2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
